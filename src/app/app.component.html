@@ -1,0 +1,40 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <button mat-button-icon>
+      <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
+    </button>
+    <h1>NareshIT</h1>
+    <span class="menu-spacer"></span>
+    <div>
+      <a mat-button>Angular</a>
+      <a mat-button>Nodejs</a>
+      <a mat-button>ReactJs</a>
+      <a mat-button>VueJS</a>
+      <a mat-button>MEAN Stack</a>
+      <a mat-button>MERN Stack</a>
+    </div>
+  </mat-toolbar-row>
+
+  <mat-toolbar-row>
+    We will learn all latest tecnologies here
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<mat-sidenav-container>
+
+  <mat-sidenav #sidenav>
+    <mat-nav-list>
+      <a mat-list-item>About</a>
+      <a mat-list-item>Contact</a>
+      <a mat-list-item>Portfilo</a>
+      <a mat-list-item>Queries</a>
+      <a mat-list-item>Feedback</a>
+      <a mat-list-item>Logout</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div style="height: 80vh;">
+      SPA Data Soon....!!
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
